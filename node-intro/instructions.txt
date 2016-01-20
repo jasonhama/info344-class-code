@@ -1,0 +1,15 @@
+npm init
+node-intro
+(server.js)
+
+
+//for the app
+npm install express --save
+
+//statement completion, etc
+tsd install express --save
+
+npm install morgan --save
+
+tsd install morgan --save
+
