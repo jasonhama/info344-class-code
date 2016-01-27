@@ -1,0 +1,12 @@
+to run vagrant...
+
+cd node-db
+
+vagrant up
+vagrant ssh
+
+npm install
+tsd install
+
+npm install request --save
+npm install cheerio --save
