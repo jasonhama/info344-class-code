@@ -11,11 +11,18 @@
   "dependencies": {
     "bluebird": "^3.1.2",
     "body-parser": "^1.14.2",
+<<<<<<< HEAD
     "cheerio": "^0.19.0",
     "express": "^4.13.4",
     "mongoose": "^4.3.7",
     "morgan": "^1.6.1",
     "mysql": "^2.10.2",
     "request": "^2.68.0"
+=======
+    "express": "^4.13.4",
+    "mongoose": "^4.3.7",
+    "morgan": "^1.6.1",
+    "mysql": "^2.10.2"
+>>>>>>> d00ee974a1f174ecc82d6fbb7204af3d51732448
   }
 }

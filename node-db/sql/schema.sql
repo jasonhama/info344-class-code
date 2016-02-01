@@ -8,7 +8,10 @@ use news;
 create or replace table stories (
     id int not null primary key auto_increment,
     url varchar(2048) not null,        
+<<<<<<< HEAD
     title varchar(1024) null,
+=======
+>>>>>>> d00ee974a1f174ecc82d6fbb7204af3d51732448
     votes int not null default 0,
     createdOn datetime not null default now()
 );
