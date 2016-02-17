@@ -1,0 +1,15 @@
+how to use pm2
+pm2 start server.js -i 4
+
+set instances = to cores
+pm2 start server.js -i 0
+
+sudo service nginx restart
+
+test nginx server
+sudo nginx -t
+
+restart server
+sudo service nginx restart
+
+lets encrypt to get a ssl
