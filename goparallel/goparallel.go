@@ -90,6 +90,16 @@ func main() {
     //the file name
     //use a sync.WaitGroup to block the main 
     //thread until all the goroutines have finished
+    wg := sync.WaitGroup{}
+    for _, file := range files {
+        if !file.IsDir() {
+            wg.Add(1)
+            go hashFile(dir + file.Name(), hashesDir + file.Name(), &wg)
+        }
+    }
+    
+    //wait for all go routines to finish
+    wg.Wait()
 
 
     //get the ending time and report duration

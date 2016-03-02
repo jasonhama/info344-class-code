@@ -1,0 +1,8 @@
+curl -O http://www-01.sil.org/linguistics/wordlists/english/wordlist/wordsEn.txt
+
+go get
+
+go run goparallel.go ./data
+
+mkdir chunks
+split wordsEn.txt chunks/chunk
